@@ -1,0 +1,685 @@
+@font-face {
+    src: url("../fonts/Captureit.ttf");
+    font-family: Captureit;
+}
+
+@font-face {
+    src: url("../fonts/Lifehack-basic.otf");
+    font-family: Lifehack-basic;
+}
+
+@font-face {
+    src: url("../fonts/RobotoBlack.ttf");
+    font-family: RobotoBlack;
+}
+
+@font-face {
+    src: url("../fonts/RobotoBold.ttf");
+    font-family: RobotoBold;
+}
+
+@font-face {
+    src: url("../fonts/RobotoLight.ttf");
+    font-family: RobotoLight;
+}
+
+@font-face {
+    src: url("../fonts/RobotoRegular.ttf");
+    font-family: RobotoRegular;
+}
+
+@font-face {
+    src: url("../fonts/RobotoThin.ttf");
+    font-family: RobotoThin;
+}
+
+
+body {
+    margin: 0;
+    background-color: #f6f6f6;
+}
+
+#main {
+    background-image: url("../images/bobby-rodriguezz-1043115-unsplash.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 908px;
+}
+
+#main-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 26px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo span {
+    font-size: 30px;
+    font-family: "Captureit", sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 1.8;
+}
+
+#menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 580px;
+    margin: 0;
+}
+
+#menu ul li:first-child {
+    list-style: none;
+}
+
+#menu ul li {
+    font-size: 16px;
+    font-family: "RobotoRegular", sans-serif;
+    line-height: 3.375;
+    color: rgb(255, 255, 255);
+}
+
+#menu ul li.active a {
+    font-family: "RobotoBold", sans-serif;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.btn-white {
+    font-size: 13px;
+    font-family: "RobotoRegular", sans-serif;
+    color: rgb(254, 254, 254);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: inherit;
+    padding: 16px 22px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btn-white:hover {
+    color: #f6a501;
+    border-color: #f6a501;
+}
+
+#titles {
+    padding-top: 70px;
+}
+
+#title-burgers {
+    width: 600px;
+    height: 130px;
+    background-image: url("../images/штамп.png");
+    background-position: center;
+    font-size: 55px;
+    font-family: "Captureit", sans-serif;
+    color: rgb(246, 165, 1);
+    line-height: 0.982;
+    text-shadow: 0 0 91.16px rgba(2, 7, 8, 0.004);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 59px;
+}
+
+#title-text {
+    margin-top: 55px;
+    font-size: 40px;
+    font-family: "Lifehack-basic", sans-serif;
+    color: #fdfdfd;
+    line-height: 1;
+    text-shadow: 0 0 14.25px rgba(2, 7, 8, 0.004);
+    -moz-transform: matrix(0.99320644518279, -0.11636561883718, 0.11636561883718, 0.99320644518279, 0, 0);
+    -webkit-transform: matrix(0.99320644518279, -0.11636561883718, 0.11636561883718, 0.99320644518279, 0, 0);
+    -ms-transform: matrix(0.99320644518279, -0.11636561883718, 0.11636561883718, 0.99320644518279, 0, 0);
+    position: absolute;
+
+}
+#show-menu a.button-yellow {
+    text-decoration: none;
+    display: block;
+    line-height: 50px;
+}
+
+#title-text span {
+    color: #f6a601;
+}
+
+#main-items {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-item {
+    max-width: 390px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.main-item-image {
+    height: 79px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main-item-title {
+    font-size: 20px;
+    font-family: "RobotoBold", sans-serif;
+    color: rgb(51, 23, 3);
+    line-height: 1.252;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+
+.main-item-text {
+    font-size: 18px;
+    font-family: "RobotoLight", sans-serif;
+    color: rgb(51, 23, 3);
+    line-height: 1.222;
+    height: 56px;
+    text-align: center;
+}
+
+#description {
+    background-image: url("../images/jaco-pretorius-473524-unsplash.png");
+    background-position: center;
+    height: 1019px;
+    background-repeat: no-repeat;
+}
+
+.block-title {
+    font-size: 35px;
+    font-family: "RobotoBold", sans-serif;
+    color: rgb(246, 165, 1);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+#description .block-title {
+
+    padding-top: 220px;
+}
+
+#description-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#description-text {
+    padding-top: 100px;
+
+    width: 441px;
+}
+
+#description-text-title {
+    font-size: 30px;
+    font-family: "Lifehack-basic", sans-serif;
+    color: rgb(254, 254, 254);
+    margin-bottom: 20px;
+}
+
+.description-text-words {
+    margin-top: 35px;
+    font-size: 16px;
+    font-family: "RobotoLight", sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 1.563;
+    text-indent: 20px;
+}
+
+#description-image {
+    padding-top: 23px;
+}
+
+#stock {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#stock .block-title {
+    color: #331703;
+    margin: 75px auto 45px auto;
+}
+
+#stock .category-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+#stock .category {
+    font-size: 20px;
+    font-family: "RobotoLight", sans-serif;
+    color: rgb(51, 23, 3);
+    border: 1px solid transparent;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+#stock .category.active {
+    font-family: "RobotoBold", sans-serif;
+    color: rgb(51, 23, 3);
+    border: 1px solid rgb(51, 23, 3);
+
+}
+
+#stock .category:hover {
+    cursor: pointer;
+    border: 1px solid rgb(51, 23, 3);
+}
+
+.products {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.products .product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products .product .product-image {
+    width: 580px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products .product .product-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.products .product .product-content {
+    max-width: 500px;
+}
+
+.products .product .product-content .product-content-title {
+    font-size: 25px;
+    font-family: "RobotoBold", sans-serif;
+    color: rgb(51, 23, 3);
+    text-transform: uppercase;
+    margin: 100px 0 35px 0;
+}
+
+.products .product .product-content .product-content-description {
+    font-size: 16px;
+    font-family: "RobotoLight", sans-serif;
+    color: rgb(51, 23, 3);
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.products .product .product-content .product-content-propertys {
+    display: flex;
+}
+
+.products .product .product-content .product-content-property span {
+    margin-right: 80px;
+    font-size: 20px;
+    font-family: "RobotoLight", sans-serif;
+    color: rgb(51, 23, 3);
+    line-height: 1.5;
+}
+
+.products .product .product-content .product-content-property img {
+    margin-right: 10px;
+}
+
+.products-nav {
+    display: flex;
+    margin-bottom: 95px;
+    margin-top: 10px;
+}
+
+.products-nav .product-nav {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    opacity: 0.3;
+}
+
+.products-nav .product-nav.slick-current {
+    opacity: 1;
+}
+
+.products-nav .product-nav:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.products-nav .product-nav img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.products-nav .product-nav:focus {
+    outline: none;
+}
+
+.slick-slide img {
+    display: inline;
+}
+
+#stock .slick-next {
+    left: 600px;
+}
+
+#stock .slick-next:before {
+    content: url("../images/next.png");
+}
+
+#stock .slick-prev:before {
+    content: url("../images/next2.png");
+}
+
+#fries-container, #sauces-container, #drinks-container {
+    display: none;
+}
+
+#info {
+    background-image: url("../images/bg отзывы и адреса.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding: 1px 0;
+}
+
+#info h2.block-title {
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+
+#reviews {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#reviews .review {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+#reviews .review .review-image {
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    margin-right: 30px;
+}
+
+#reviews .review .review-text {
+    width: 325px;
+}
+
+#reviews .review .review-text .review-text-title {
+    font-size: 20px;
+    font-family: "RobotoBold", sans-serif;
+    color: rgb(254, 254, 254);
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+#reviews .review .review-text .review-text-description {
+    font-size: 16px;
+    font-family: "RobotoLight", sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 1.563;
+}
+
+#addresses {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+#addresses .block-title {
+    margin: 150px 0 60px 0;
+}
+
+#addresses-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#addresses-container .address-container {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 15px;
+}
+
+#addresses-container .address-container .address {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 470px;
+}
+
+#addresses-container .address-container .address .address-text {
+    margin-top: 25px;
+    text-align: left;
+    padding: 0 90px;
+}
+
+#addresses-container .address-container .address .address-text span {
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: "RobotoBold", sans-serif;
+    color: rgb(247, 246, 246);
+    margin-left: 15px;
+}
+
+#addresses-container .address-container .address .address-button {
+    margin: 40px auto 25px auto;
+    text-align: center;
+}
+
+#addresses-container .address-container .address .address-text img {
+    vertical-align: middle;
+}
+
+#instagram {
+    margin: 85px auto;
+    max-width: 1170px;
+    text-align: center;
+}
+
+#instagram a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#instagram-text {
+    font-size: 20px;
+    font-family: "RobotoBlack", sans-serif;
+    color: rgb(246, 165, 1);
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+
+#footer {
+    background-color: rgb(18, 8, 1);
+    text-align: center;
+    padding: 24px 0;
+}
+
+#footer span {
+    font-size: 10px;
+    font-family: "RobotoThin", sans-serif;
+    color: rgb(188, 188, 188);
+    text-transform: uppercase;
+}
+
+#reviews .slick-next:before {
+    content: url("../images/next4.png");
+}
+
+#reviews .slick-prev:before {
+    content: url("../images/next3.png");
+}
+
+.button-yellow {
+    border-radius: 10px;
+    background-image: -moz-linear-gradient(180deg, rgb(255, 199, 59) 0%, rgb(235, 161, 0) 100%);
+    background-image: -webkit-linear-gradient(180deg, rgb(255, 199, 59) 0%, rgb(235, 161, 0) 100%);
+    background-image: -ms-linear-gradient(180deg, rgb(255, 199, 59) 0%, rgb(235, 161, 0) 100%);
+    font-size: 15px;
+    text-align: center;
+    width: 209px;
+    height: 50px;
+    line-height: 3.4;
+    text-transform: uppercase;
+    font-family: "RobotoRegular", sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+}
+
+.button-yellow:hover {
+    cursor: pointer;
+    box-shadow: 0 0 13.5px 1.5px rgba(204, 142, 6, 1);
+}
+
+#reservation-container {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 999999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#reservation {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(63, 63, 63);
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 40.67px 8.33px rgba(2, 7, 8, 1);
+    width: 584px;
+    padding: 45px 35px 70px 35px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#reservation-cancel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#reservation .block-title {
+    font-size: 25px;
+}
+
+#reserve {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reserve-input label {
+    font-size: 11px;
+    font-family: "RobotoRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    line-height: 22px;
+}
+
+.reserve-input {
+    margin-top: 15px;
+}
+
+.reserve-input input {
+    border-width: 1px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 10px;
+    width: 248px;
+    height: 38px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+#reserve-button {
+    text-align: center;
+}
+
+#reservation-sent {
+    display: none;
+}
+
+#reservation-sent h2.block-title {
+    margin-top: 95px;
+    font-size: 25px;
+}
+
+#reservation-sent-text {
+    font-size: 15px;
+    font-family: "RobotoRegular", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 35px 0 110px 0;
+}
+#reserve-error {
+    color: red;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    display: none;
+}
+#burger {
+    display: none;
+    color: white;
+    font-size: 32px;
+    line-height: 30px;
+}
